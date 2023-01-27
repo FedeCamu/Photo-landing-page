@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landscape Photography</title>
+
+    <style>
+      body {
+        background: linear-gradient(
+          -225deg,
+          rgb(238, 238, 238) 0%,
+          rgb(83, 123, 128) 100%
+        );
+      }
+      h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+      }
+
+      h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        margin: 20px auto;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .intro_picture {
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .intro_picture:hover {
+        transform: scale(1.1);
+        filter: sepia(30%);
+        /* filter: contrast(80%); */
+      }
+
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        margin: 30px auto;
+      }
+
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+
+      .container {
+        max-width: 50%;
+        margin: 20px auto;
+        padding: 40px;
+        background: rgba(238, 238, 238, 0.8);
+        border-radius: 10px;
+      }
+
+      .dark_theme_button {
+        background-color: #77628c;
+        color: white;
+        border-color: #77628c;
+        font-size: 14px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 4px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .dark_theme_button:hover {
+        color: #77628c;
+        background-color: #eeeeee;
+        border-color: #eeeeee;
+        cursor: pointer;
+      }
+
+      button {
+        background-color: #eeeeee;
+        color: black;
+        border: 3px solid #71a0a5;
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin: 40px auto;
+        border-radius: 30px;
+        padding: 10px;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        color: white;
+        background-color: #71a0a5;
+        border-color: #71a0a5;
+        cursor: pointer;
+      }
+
+      footer {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-decoration: underline;
+        color: white;
+        margin: 20px 0;
+      }
+
+      .grid1 {
+        display: grid;
+        margin: 30px 0;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 15px;
+      }
+
+      .grid1 img {
+        border-radius: 5px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .grid1 img:hover {
+        transform: scale(2);
+      }
+
+      .grid2 {
+        display: grid;
+        margin: 10px 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+      }
+
+      .grid2 img {
+        border-radius: 5px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .grid2 img:hover {
+        transform: scale(1.5);
+      }
+
+      .dark {
+        background: linear-gradient(
+          91.7deg,
+          rgb(50, 25, 79) -4.3%,
+          rgb(96, 79, 117) 101.8%
+        );
+
+        color: white;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .dark a {
+        color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="change-button" class="dark_theme_button">Change Theme</button>
+
+    <div class="container">
+      <h1>📷 Landscape photography 📷</h1>
+      <h2><em>A beautiful photo subject</em></h2>
+
+      <a
+        href="https://en.wikipedia.org/wiki/Landscape_photography"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/370/original/alen-rojnic-OjJwT_IrCSk-unsplash.jpg?1666911574"
+          class="intro_picture"
+        />
+      </a>
+      <div class="grid1">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/374/original/nils-leonhardt-Tss1uOMczDg-unsplash.jpg?1666911624"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/371/original/chris-meads-Uy9Bh-kmt3s-unsplash.jpg?1666911586"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/373/original/federico-di-dio-photography-Ovz3oM-95rE-unsplash.jpg?1666911611"
+        />
+      </div>
+
+      <div class="grid2">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/372/original/chris-stenger-DTMhL0OpXjQ-unsplash.jpg?1666911596"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/509/original/wild-sEaVrt0ubFM-unsplash.jpg?1666990635"
+        />
+      </div>
+
+      <p>
+        <strong>Landscape photography</strong> shows the spaces within the
+        world, sometimes vast and unending, but other times microscopic.
+        Landscape photographs typically capture the presence of nature but can
+        also focus on man-made features or disturbances of landscapes. Landscape
+        photography is done for a variety of reasons.
+      </p>
+
+      <a
+        href="https://en.wikipedia.org/wiki/Landscape_photography"
+        target="_blank"
+        >Landscape Photography on Wiki</a
+      >
+
+      <button id="join_button">Join our Community</button>
+    </div>
+    <footer>💻Coded by Federica C. 💻</footer>
+
+    <script>
+      console.log("ok1");
+
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+
+        console.log("ok2");
+      }
+
+      let changeButton = document.querySelector("#change-button");
+
+      changeButton.addEventListener("click", changeTheme);
+
+      console.log("ok3");
+
+      function joinCommunity() {
+        let name = prompt("what's your name?");
+        let city = prompt("Where do you live?");
+        let email = prompt("What's your email address?");
+        alert(
+          `Hi ${name}! Welcome aboard 📷 😊. You'll receive shortly the information to join our local community in ${city}`
+        );
+      }
+
+      let joinButton = document.querySelector("#join_button");
+
+      joinButton.addEventListener("click", joinCommunity);
+      console.log("ok4");
+    </script>
+  </body>
+</html>
